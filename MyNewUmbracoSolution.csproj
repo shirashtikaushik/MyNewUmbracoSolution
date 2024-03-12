@@ -1,0 +1,172 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net8.0\MyNewUmbracoSolution.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0\MyNewUmbracoSolution.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net8.0\MyNewUmbracoSolution.MvcApplicationPartsAssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0\MyNewUmbracoSolution.RazorAssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Plugins\uSkinned\backoffice\tours\uSkinned-tours.json" />
+    <Content Include="App_Plugins\uSkinned\css\block-editor.css" />
+    <Content Include="App_Plugins\uSkinned\views\block.html" />
+    <Content Include="obj\Debug\net8.0\MyNewUmbracoSolution.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net8.0\staticwebassets.build.json" />
+    <Content Include="obj\Debug\net8.0\staticwebassets.development.json" />
+    <Content Include="obj\Debug\net8.0\staticwebassets.pack.json" />
+    <Content Include="obj\MyNewUmbracoSolution.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="umbraco\Data\TEMP\DistCache\bc511c1f75b45e8926422a84c3bc561ca05a7eb9-lastsynced.txt" />
+    <Content Include="umbraco\Data\TEMP\Install\install_405f11054d2348f2b26a2cf015f0c249.txt" />
+    <Content Include="umbraco\Logs\UmbracoTraceLog.GEDU-LP313.20240222.json" />
+    <Content Include="wwwroot\media\012p4qcj\dishing-up.jpeg" />
+    <Content Include="wwwroot\media\13mpglcl\chop.jpeg" />
+    <Content Include="wwwroot\media\1gvjn10e\hotel.jpeg" />
+    <Content Include="wwwroot\media\232hje5h\pic4.jpeg" />
+    <Content Include="wwwroot\media\2htj1f3m\flickr.png" />
+    <Content Include="wwwroot\media\3anjknxi\soup.jpeg" />
+    <Content Include="wwwroot\media\3audjzrc\baking.jpeg" />
+    <Content Include="wwwroot\media\3s4fjzun\backgroundimage3.jpeg" />
+    <Content Include="wwwroot\media\4e1c3dbq\soundcloud.png" />
+    <Content Include="wwwroot\media\4i0hhx1g\facebook.png" />
+    <Content Include="wwwroot\media\5jtgmnsc\schiller-icon.png" />
+    <Content Include="wwwroot\media\amgbt5so\campus4.jpg" />
+    <Content Include="wwwroot\media\at0orfkx\campus2.jpg" />
+    <Content Include="wwwroot\media\bbaffair\hotel.jpeg" />
+    <Content Include="wwwroot\media\c13hzbmi\tumblr.png" />
+    <Content Include="wwwroot\media\cjgpxzcz\og-everyone01_web.jpg" />
+    <Content Include="wwwroot\media\cwphknj3\picture3.jpg" />
+    <Content Include="wwwroot\media\d3enbzuv\backgroundimage4.jpeg" />
+    <Content Include="wwwroot\media\ddenrbf2\grilled-salmon.jpeg" />
+    <Content Include="wwwroot\media\dodjxcwg\pic1.jpeg" />
+    <Content Include="wwwroot\media\dwpdih5y\chef.jpeg" />
+    <Content Include="wwwroot\media\e04pcfcy\linkedin.png" />
+    <Content Include="wwwroot\media\eysgmgua\behance.png" />
+    <Content Include="wwwroot\media\fzwdxc3i\facebook.png" />
+    <Content Include="wwwroot\media\g1tlssmm\picture1.jpeg" />
+    <Content Include="wwwroot\media\gqqj4dao\full-page.png" />
+    <Content Include="wwwroot\media\h2dhxqln\loginbackground2.jpeg" />
+    <Content Include="wwwroot\media\idgp4zun\tripadvisor.png" />
+    <Content Include="wwwroot\media\iwvdn5mx\campus3.jpg" />
+    <Content Include="wwwroot\media\jb2bi5vf\right-page.png" />
+    <Content Include="wwwroot\media\jrrnb2c3\golden-gate.jpg" />
+    <Content Include="wwwroot\media\kbijeaqw\picture2.jpg" />
+    <Content Include="wwwroot\media\khfdt3az\center-nav-left-page.png" />
+    <Content Include="wwwroot\media\kwkd4igf\vimeo.png" />
+    <Content Include="wwwroot\media\oerdgnxr\numbers.jpg" />
+    <Content Include="wwwroot\media\oikpkhyd\person1.jpg" />
+    <Content Include="wwwroot\media\orvhniyc\campus1.jpg" />
+    <Content Include="wwwroot\media\p3zjtvvg\hotel.jpeg" />
+    <Content Include="wwwroot\media\payll2kr\twitter.png" />
+    <Content Include="wwwroot\media\pfwdw2eo\left-page.png" />
+    <Content Include="wwwroot\media\phdj2ab1\salmon.jpeg" />
+    <Content Include="wwwroot\media\phndhwfa\youtube.png" />
+    <Content Include="wwwroot\media\pr0nsrdx\loginbackground2.jpeg" />
+    <Content Include="wwwroot\media\pvsnqcgl\img1.jpg" />
+    <Content Include="wwwroot\media\q53lini5\right-to-left.jpg" />
+    <Content Include="wwwroot\media\qanhcady\peru.jpg" />
+    <Content Include="wwwroot\media\rxyfhaoe\pic4.jpeg" />
+    <Content Include="wwwroot\media\s3ooj5en\night.jpg" />
+    <Content Include="wwwroot\media\s4vlivmg\pinterest.png" />
+    <Content Include="wwwroot\media\s5njfdnd\rss.png" />
+    <Content Include="wwwroot\media\sfsj4kvf\backgroundimage4.jpeg" />
+    <Content Include="wwwroot\media\shqaz3ht\chillies.jpeg" />
+    <Content Include="wwwroot\media\tjxaimv2\instagram.png" />
+    <Content Include="wwwroot\media\tzlpm02y\person2.jpg" />
+    <Content Include="wwwroot\media\ubvkfp3y\twitter.png" />
+    <Content Include="wwwroot\media\w0olbbrt\tables.jpeg" />
+    <Content Include="wwwroot\media\wllopntm\card.jpg" />
+    <Content Include="wwwroot\media\wvffurdm\usn.png" />
+    <Content Include="wwwroot\media\xhkh1f3m\instagram.png" />
+    <Content Include="wwwroot\media\xu5go342\center-nav-right-page.png" />
+    <Content Include="wwwroot\media\ybmb12bi\scotland.jpg" />
+    <Content Include="wwwroot\media\zsmpjit5\youtube.png" />
+    <Content Include="wwwroot\media\zv4kbtwy\pic1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App_Plugins\uSkinnedSiteBuilder.Theme.Fair\package.manifest" />
+    <None Include="App_Plugins\uSkinned\grid\code-grid.cshtml" />
+    <None Include="MyNewUmbracoSolution - Backup.csproj" />
+    <None Include="MyNewUmbracoSolution.sln" />
+    <None Include="obj\Debug\net8.0\apphost.exe" />
+    <None Include="obj\Debug\net8.0\MyNewUmbracoSolution.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net8.0\MyNewUmbracoSolution.assets.cache" />
+    <None Include="obj\Debug\net8.0\MyNewUmbracoSolution.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net8.0\MyNewUmbracoSolution.csproj.BuildWithSkipAnalyzers" />
+    <None Include="obj\Debug\net8.0\MyNewUmbracoSolution.csproj.CopyComplete" />
+    <None Include="obj\Debug\net8.0\MyNewUmbracoSolution.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net8.0\MyNewUmbracoSolution.dll" />
+    <None Include="obj\Debug\net8.0\MyNewUmbracoSolution.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net8.0\MyNewUmbracoSolution.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net8.0\MyNewUmbracoSolution.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\net8.0\MyNewUmbracoSolution.pdb" />
+    <None Include="obj\Debug\net8.0\MyNewUmbracoSolution.RazorAssemblyInfo.cache" />
+    <None Include="obj\Debug\net8.0\project.razor.vs.bin" />
+    <None Include="obj\Debug\net8.0\refint\MyNewUmbracoSolution.dll" />
+    <None Include="obj\Debug\net8.0\ref\MyNewUmbracoSolution.dll" />
+    <None Include="obj\Debug\net8.0\staticwebassets\msbuild.build.MyNewUmbracoSolution.props" />
+    <None Include="obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MyNewUmbracoSolution.props" />
+    <None Include="obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MyNewUmbracoSolution.props" />
+    <None Include="obj\Debug\net8.0\staticwebassets\msbuild.MyNewUmbracoSolution.Microsoft.AspNetCore.StaticWebAssets.props" />
+    <None Include="obj\MyNewUmbracoSolution.csproj.nuget.g.props" />
+    <None Include="obj\MyNewUmbracoSolution.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="umbraco\Data\TEMP\ExamineIndexes\DeliveryApiContentIndex\segments.gen" />
+    <None Include="umbraco\Data\TEMP\ExamineIndexes\DeliveryApiContentIndex\segments_1" />
+    <None Include="umbraco\Data\TEMP\ExamineIndexes\ExternalIndex\segments.gen" />
+    <None Include="umbraco\Data\TEMP\ExamineIndexes\ExternalIndex\segments_1" />
+    <None Include="umbraco\Data\TEMP\ExamineIndexes\InternalIndex\segments.gen" />
+    <None Include="umbraco\Data\TEMP\ExamineIndexes\InternalIndex\segments_1" />
+    <None Include="umbraco\Data\TEMP\ExamineIndexes\MembersIndex\segments.gen" />
+    <None Include="umbraco\Data\TEMP\ExamineIndexes\MembersIndex\segments_1" />
+    <None Include="umbraco\Data\TEMP\MainDom_f5801834fceb50f6ff84613dfd95dea9c05df774.lock" />
+    <None Include="umbraco\Data\TEMP\NuCache\NuCache.Content.db" />
+    <None Include="umbraco\Data\TEMP\NuCache\NuCache.Content.tlog" />
+    <None Include="umbraco\Data\TEMP\NuCache\NuCache.Media.db" />
+    <None Include="umbraco\Data\TEMP\NuCache\NuCache.Media.tlog" />
+    <None Include="umbraco\Data\Umbraco.sqlite.db" />
+    <None Include="umbraco\Data\Umbraco.sqlite.db-shm" />
+    <None Include="umbraco\Data\Umbraco.sqlite.db-wal" />
+    <None Include="wwwroot\media\22xfj2wy\example-document.pdf" />
+    <None Include="wwwroot\media\5nfbobg2\se.svg" />
+    <None Include="wwwroot\media\a33pcdzz\gb.svg" />
+    <None Include="wwwroot\media\calii1us\dk.svg" />
+    <None Include="wwwroot\media\giqj02wq\es.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Umbraco.Cms" Version="13.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Opt-in to app-local ICU to ensure consistent globalization APIs across different platforms -->
+    <PackageReference Include="Microsoft.ICU.ICU4C.Runtime" Version="72.1.0.3" />
+    <PackageReference Include="uSkinned.Licensing" Version="1.0.3" />
+    <PackageReference Include="uSkinnedSiteBuilder" Version="6.0.0" />
+    <PackageReference Include="uSkinnedSiteBuilder.Theme.Fair" Version="4.0.0" />
+    <RuntimeHostConfigurationOption Include="System.Globalization.AppLocalIcu" Value="72.1.0.3" Condition="$(RuntimeIdentifier.StartsWith('linux')) or $(RuntimeIdentifier.StartsWith('win')) or ('$(RuntimeIdentifier)' == '' and !$([MSBuild]::IsOSPlatform('osx')))" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="umbraco\Data\TEMP\FileUploads\" />
+    <Folder Include="umbraco\Data\TEMP\InMemoryAuto\" />
+    <Folder Include="Views\MacroPartials\" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <!-- Razor files are needed for the backoffice to work correctly -->
+    <CopyRazorGenerateFilesToPublishDirectory>true</CopyRazorGenerateFilesToPublishDirectory>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <!-- Remove RazorCompileOnBuild and RazorCompileOnPublish when not using ModelsMode InMemoryAuto -->
+    <RazorCompileOnBuild>false</RazorCompileOnBuild>
+    <RazorCompileOnPublish>false</RazorCompileOnPublish>
+  </PropertyGroup>
+
+</Project>
